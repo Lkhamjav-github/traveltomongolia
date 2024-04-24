@@ -1,0 +1,1 @@
+import { ExampleIcon , ExampleShape } from "@/components/icons/aboutPage";
