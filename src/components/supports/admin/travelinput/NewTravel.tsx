@@ -14,7 +14,7 @@ import { PictureAdmin } from "./PictureAdmin";
 import { RouteAdmin } from "./RouteAdmin";
 import { CalendarAdmin } from "./CalendarAdmin";
 import { LoadingAdmin } from "./LoadingAdmin";
-import { SuccessAdmin } from "./SuccessAdmin";
+
 
 const steps = [
   {

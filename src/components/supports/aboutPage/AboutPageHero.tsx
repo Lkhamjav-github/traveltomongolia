@@ -1,8 +1,7 @@
-import React from 'react'
+
 import { getServerSideProps } from '@/utils/fetchTravelDatas'
 import Header from '../homePage/Header';
 import { Value } from '../homePage/Value';
-import { ValueCard } from '../homePage/ValueCard';
 import { ContactTextDesign } from './ContactTextDesign';
 import { FetchDataProps } from '@/types/fetchDataProps';
 

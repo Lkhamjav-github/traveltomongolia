@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const ContactTextDesign = ({ title, contact }: { title: string, contact: string }) => {
     return (

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import {
@@ -104,11 +103,10 @@ export const FoodAdmin = () => {
                       id="foodNumber"
                       type="number"
                       placeholder="Нэг өдрийн аялалын хоолны тоог оруулна уу"
-                      className={`${
-                        !IsIncludeFood
+                      className={`${!IsIncludeFood
                           ? "bg-gray-50 border-gray-100"
                           : "bg-gray-100 border-gray-200"
-                      } rounded-lg w-full p-1 gap-3 text-sm h-10 border`}
+                        } rounded-lg w-full p-1 gap-3 text-sm h-10 border`}
                       disabled={!IsIncludeFood}
                       {...formik.getFieldProps("foodNumber")}
                     />
@@ -140,9 +138,8 @@ export const FoodAdmin = () => {
                   <div className="w-4/5  text-sm flex items-center">
                     <label
                       htmlFor="name"
-                      className={`${
-                        !IsIncludeFoodPrice ? "text-gray-400" : ""
-                      }`}
+                      className={`${!IsIncludeFoodPrice ? "text-gray-400" : ""
+                        }`}
                     >
                       Нэмэлт хоолны төлбөр
                     </label>
@@ -150,11 +147,10 @@ export const FoodAdmin = () => {
                       id="foodPrice"
                       type="number"
                       placeholder="Хоолны төлбөрийг оруулна уу"
-                      className={`${
-                        !IsIncludeFood
+                      className={`${!IsIncludeFood
                           ? "bg-gray-50 border-gray-100"
                           : "bg-gray-100 border-gray-200"
-                      } rounded-lg w-full p-1 gap-3 text-sm h-10 border`}
+                        } rounded-lg w-full p-1 gap-3 text-sm h-10 border`}
                       disabled={!IsIncludeFoodPrice}
                       {...formik.getFieldProps("foodPrice")}
                     />
@@ -211,9 +207,8 @@ export const FoodAdmin = () => {
                   <div className="w-4/5 h-20 text-sm flex items-center">
                     <label
                       htmlFor="name"
-                      className={`${
-                        !IsIncludeTrafficPrice ? "text-gray-400" : ""
-                      }`}
+                      className={`${!IsIncludeTrafficPrice ? "text-gray-400" : ""
+                        }`}
                     >
                       Нэмэлт тээврийн төлбөр
                     </label>
@@ -221,11 +216,10 @@ export const FoodAdmin = () => {
                       id="trafficPrice"
                       type="number"
                       placeholder="Хоолны төлбөрийг оруулна уу"
-                      className={`${
-                        !IsIncludeTraffic
+                      className={`${!IsIncludeTraffic
                           ? "bg-gray-50 border-gray-100"
                           : "bg-gray-100 border-gray-200"
-                      } rounded-lg w-full p-1 gap-3 text-sm h-10 border`}
+                        } rounded-lg w-full p-1 gap-3 text-sm h-10 border`}
                       disabled={!IsIncludeTrafficPrice}
                       {...formik.getFieldProps("trafficPrice")}
                     />
