@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const TimeIcon = ({ width = "22", height = "22", fill = "#4997D3" }) => {
     return (

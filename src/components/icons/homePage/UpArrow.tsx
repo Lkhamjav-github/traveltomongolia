@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const UpArrow = ({ width = "18", height = "10", fill = "white" }) => {
     return (

@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const FlagSvg = ({ stroke = "#4997D3" }) => {
     return (

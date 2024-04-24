@@ -1,5 +1,3 @@
-import { Minus } from './Minus';
-
 export { LocationWhite } from './LocationWhite';
 export { Correct } from './Correct';
 export { Wrong } from './Wrong';

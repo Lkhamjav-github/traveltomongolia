@@ -1,5 +1,4 @@
-import React from "react";
-import { string } from "yup";
+
 
 export const HamBurger = ({ color }: { color: string }) => {
   return (

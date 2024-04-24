@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const Line = ({ width = "1148", height = "196" }) => {
     return (

@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const LocationIcon = ({ width = "14", height = "20", fill = "white" }) => {
     return (

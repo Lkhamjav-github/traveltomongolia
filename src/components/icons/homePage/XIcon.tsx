@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const XIcon = ({ width = "12", height = "12", fill = "#8B96A5" }) => {
     return (

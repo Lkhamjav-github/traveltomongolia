@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const RightArrow = ({ width = "18", height = "34", fill = "#4997D3" }) => {
     return (

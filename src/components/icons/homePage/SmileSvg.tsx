@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const SmileSvg = ({ fill = "#4997D3" }) => {
     return (
